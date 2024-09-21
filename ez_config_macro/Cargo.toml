@@ -2,6 +2,8 @@
 name = "ez_config_macro"
 version = "0.1.0"
 edition = "2021"
+description = "proc_macro crate for ez_config crate"
+license = "MIT"
 
 [lib]
 proc-macro = true
