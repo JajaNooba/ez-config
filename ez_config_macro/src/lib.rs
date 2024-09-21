@@ -29,7 +29,7 @@ pub fn config_derive(input: TokenStream) -> TokenStream {
 
     TokenStream::from(quote! {
         impl Config for #struct_name {
-            fn load() -> Self {
+            pub fn load() -> Self {
                 #(
                     let #field_name_cloned: #field_type = env!(#var_name).parse::<#field_type>().unwrap();
                 )*
