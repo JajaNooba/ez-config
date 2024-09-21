@@ -1,5 +1,5 @@
 //!
-//! # ez_config: Simple env config library for Rust
+//! # ez_cfg: Simple env config library for Rust
 //!
 //! # Overview
 //!
@@ -7,7 +7,7 @@
 //!
 //! # Example
 //! ```
-//! use ez_config::*;
+//! use ez_cfg::*;
 //!
 //! #[derive(Config)]
 //! struct MyConfig {
@@ -30,7 +30,7 @@
 //! SOME_NUMBER=123
 //! ```
 
-pub use ez_config_macro::Config;
+pub use ez_cfg_macro::Config;
 
 pub trait Config {
     fn load() -> Self;
