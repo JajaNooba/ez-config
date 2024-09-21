@@ -1,5 +1,5 @@
 [package]
-name = "ez_config"
+name = "ez_cfg"
 version = "0.1.0"
 edition = "2021"
 authors = ["JajaNooba"]
@@ -10,4 +10,4 @@ documentation = "https://docs.rs/ez_config/latest/ez_config"
 
 
 [dependencies]
-ez_config_macro = { path = "./ez_config_macro/", version = "0.1.0" }
+ez_cfg_macro = { path = "./ez_config_macro/", version = "0.1.0" }
