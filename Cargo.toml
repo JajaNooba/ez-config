@@ -1,0 +1,13 @@
+[package]
+name = "ez_config"
+version = "0.1.0"
+edition = "2021"
+authors = ["JajaNooba"]
+description = "Simple env config library for Rust"
+license = "MIT"
+repository = "https://github.com/JajaNooba/ez-config"
+documentation = "https://docs.rs/ez_config/latest/ez_config"
+
+
+[dependencies]
+ez_config_macro = { path = "./ez_config_macro/" }
